@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return LayoutBuilder(
       builder: (context, constraints) {
         return Scaffold(
-          body: Row(git
+          body: Row(
             children: [
               SafeArea(
                 child: NavigationRail(
